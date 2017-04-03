@@ -13,7 +13,7 @@ Guide to use this repository:
 3. You can use a open source broker like MOsquitto or Mocha orcan use a licensed versions like HIVEMQ and VerneMQ.
 //The above steps are to recieve data from ESP8266 onto raspberry pi and sending data from ESP8266 onto the raspberry pi.
 //To use send data from raspberry pi onto the ESP8266 follow the below steps:
-1. Burn the file (NODE_MQTT_Raspi-node.ino) onto the ESP8266 and file onto to the raspberry pi.
+1. Burn the file (NODE_MQTT_Raspi-node.ino) onto the ESP8266 and file (raspberry-node_mqtt.py) onto to the raspberry pi.
 2. Open the broker on to the port 1883.
 //To send and recieve data from ESP8266 to rapsberry as well as from the Raspberry pi to the ESP8266.
 1. Burn the file onto the ESP8266 and file onto to the raspberry pi.
