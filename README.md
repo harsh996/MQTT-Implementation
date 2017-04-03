@@ -8,4 +8,6 @@ This repository contains codes to send data from raspberry pi to ESP8266, reciev
 The user need to install a broker onto the system, here I have installed it on my raspberru pi.Many open source broker are available like Mosquitto, Mocha and also licensed broker like HIVEMQ and VERNEMQ are also available.
 
 Guide to use this repository:
-1. First burn the
+1. First burn the (NODE_MQTT.ino) file onto the ESP8266 and the file (mqtt-subscriber.py) onto the raspberry pi.
+2. Open a broker on the port 1883 which is the default port of MQTT.
+//The above steps are to recieve data from ESP8266 onto raspberry pi and sending data from ESP8266 onto the raspberry pi.
