@@ -16,5 +16,5 @@ Guide to use this repository:
 1. Burn the file (NODE_MQTT_Raspi-node.ino) onto the ESP8266 and file (raspberry-node_mqtt.py) onto to the raspberry pi.
 2. Open the broker on to the port 1883.
 //To send and recieve data from ESP8266 to rapsberry as well as from the Raspberry pi to the ESP8266.
-1. Burn the file onto the ESP8266 and file onto to the raspberry pi.
+1. Burn the file(Integrated_node_raspi.ino) onto the ESP8266 and file onto to the raspberry pi.
 2. Open the broker onto the port 1883
