@@ -15,7 +15,7 @@
 // Update these with values suitable for your network.
 const char* ssid = "SMART_JOULES_24";
 const char* password = "joulesO23";
-const char* mqtt_server = "192.168.0.107";
+const char* mqtt_server = "IP address of the broker";
 
 
 WiFiClient espClient;
@@ -67,7 +67,7 @@ void reconnect() {
   while (!client.connected()) {
     Serial.print("Attempting MQTT connection...");
     // Create a client ID
-     String clientId = "Raspberry_Client-";
+     String clientId = "Raspberry_Client-";  // Generating client ID
      clientId += String(random(0xffff), HEX);
     // Attempt to connect
     if (client.connect(clientId.c_str())) {
