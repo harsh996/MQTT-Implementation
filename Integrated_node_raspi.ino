@@ -1,3 +1,6 @@
+//This file is to recieve temperature sensor data from ESP8266 and send binary values(1 or 0) to control LED connected to ESP8266.
+//This program send data from raspberry pi to ESP8266 as well as recieve data from ESp8266.
+
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 #include <OneWire.h>
@@ -16,7 +19,7 @@ DallasTemperature sensors(&oneWire);
 // Update these with values suitable for your network.
 const char* ssid = "SMART_JOULES_24";
 const char* password = "joulesO23";
-const char* mqtt_server = "192.168.0.107";
+const char* mqtt_server = "IP address of broker";
 
 
 WiFiClient espClient;
